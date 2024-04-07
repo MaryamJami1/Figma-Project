@@ -1,3 +1,4 @@
+
 * {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -6,7 +7,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 
 .container {
     width: 1250px;
@@ -26,7 +26,6 @@
 .logo {
     flex-grow: 1;
     padding-left: 40px;
-
 }
 
 .tabs {
@@ -53,7 +52,6 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
 }
 
 .btn {
@@ -61,7 +59,7 @@
     height: 60px;
     border: 1px solid #BEBEBE;
     border-radius: 40px;
-    padding: 15px 35px 15px 35px;
+    padding: 15px 35px;
 }
 
 .home {
@@ -71,7 +69,6 @@
     min-height: 630px;
     border-radius: 10px;
     background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
-
 }
 
 .content {
@@ -116,7 +113,6 @@ input {
     left: 0;
     bottom: 0;
     border-radius: 40px;
-
 }
 
 .home-btn {
@@ -136,7 +132,7 @@ input {
     display: flex;
     flex-direction: column;
     width: 86%;
-    margin: 40px 120px 0px 120px;
+    margin: 40px 120px 0 120px;
     min-height: 417px;
     border-radius: 10px;
     justify-items: center;
@@ -163,7 +159,6 @@ input {
 .card2,
 .card3 {
     margin-right: 20px;
-
 }
 
 .project {
@@ -178,7 +173,6 @@ input {
     font-size: 2rem;
 }
 
-
 .project p {
     font-size: 20px;
 }
@@ -190,7 +184,6 @@ input {
 .float img {
     position: absolute;
     right: 5%;
-
 }
 
 .project-cards {
@@ -307,7 +300,6 @@ input {
     height: 580px;
     border-radius: 10px;
     background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
-
 }
 
 .foot-content {
@@ -328,7 +320,6 @@ input {
 
 .foot-img {
     width: 50%;
-
 }
 
 .foot-img img {
@@ -337,10 +328,11 @@ input {
 }
 
 .foot-input {
-
     max-width: 438px;
     height: 60px;
-    margin-top: 30px;
+    margin-top: 30px
+
+;
     position: relative;
 }
 
@@ -353,7 +345,6 @@ input {
     left: 0;
     bottom: 0;
     border-radius: 40px;
-
 }
 
 .foot-btn {
@@ -373,173 +364,128 @@ input {
     .container {
         width: 100%;
     }
-
     .header {
         flex-direction: column;
         gap: 1em;
         padding: 2em;
     }
-
     .tabs {
         width: 90%;
     }
-
     .tab-btns {
         gap: 1em;
     }
-
-
 }
 
 @media only screen and (max-width: 860px) {
-
     .content,
     .foot-content {
         margin: 0.5rem;
         padding: 7% 10px;
     }
-
     .home,
     .footer {
         min-height: 800px;
         flex-wrap: wrap;
     }
-
     #cus-head {
         width: 70%;
     }
-
     .content,
     .foot-content {
         width: 100%;
     }
-
     .home-img,
     .foot-img {
         width: 100%;
     }
-
     .text-count,
     .no-count {
         margin: 0 15px;
     }
-
 }
 
 @media only screen and (max-width: 650px) {
     .logo {
         padding-left: 0;
     }
-
     .tabs {
         flex-direction: column;
         gap: 1.5em;
         padding: 1em 0;
     }
-
     .tab-btns {
         flex-direction: column;
         gap: 1.5em;
-
     }
-
-
 }
 
-@media only screen and (max-width:400px) {
-
-    .cus-content{
+@media only screen and (max-width: 400px) {
+    .cus-content {
         width: 100%;
     }
-
-    .cus-img{
+    .cus-img {
         display: none;
     }
-    .cus-content button{
+    .cus-content button {
         padding: 12px;
         width: 200px;
         font-size: 16px;
     }
-
-    .cus-content h1{
+    .cus-content h1 {
         font-size: 20px;
     }
-
     .count {
         flex-direction: column;
-      
-        
     }
-
     .twelve {
         font-size: 20px;
     }
-
     .fourteen,
     .ten {
         padding-left: 0px;
         font-size: 20px;
         padding-top: 20px;
     }
-
-
-
     #cus-head {
         font-size: 22px;
     }
-
     .float img {
         display: none;
     }
-
     .float h1 {
         font-size: 26px;
     }
-
-
     .content h1 {
         font-size: 2em;
-
     }
-
     .card-content h1 {
         font-size: 25px;
         text-align: center;
     }
-
-
     .input {
-
         height: 40px;
-
     }
-
     .step-cards {
-
         margin: 40px 20px;
-
     }
-
     .card {
         flex-direction: column;
         align-items: center;
         margin: 30px auto;
         width: 60%;
     }
-
-    .customer{
+    .customer {
         margin-left: 20px;
         width: 80%;
     }
-    
-.foot-content h1 {
-    font-size: 2em;}
-
-    .foot-input{
-        height: 45px
+    .foot-content h1 {
+        font-size: 2em;
     }
-
-    .footer{
+    .foot-input {
+        height: 45px;
+    }
+    .footer {
         height: 100%;
     }
 }
